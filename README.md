@@ -1,8 +1,8 @@
 # Data Collection and Analysis: Experiential Learning in Business Higher Education
 ## A Self-Led Research and Analysis Project
 ### Abstract
-I came across (this)[https://www.kaggle.com/competitions/titanic/overview] competition on Kaggle and was intrigued by the prompt. We received two datasets of Titanic passengers and compete to create the most accurate classification model. The evaluation metric for the competition is accuracy score, but I found that optimizing the AUC score gives me a model that does better with the competition test dataset than those that I found through optimizing accuracy score. 
+I worked on this simple project for Tepper School of Business, collecting data on experiential learning programs and providing an analysis using Python. This is part of a larger research to benchmark experiential learning that I did for Tepper -> [link](https://sites.google.com/andrew.cmu.edu/tepperel/home)
 ### Learning Reflection
-I enjoyed this project immensely. It was extremely fun wrangling the dataset and trying to preserve as much information as possible. I also briefly researched the Titanic event to obtain some domain knowledge that was helpful. I learned two new models (MLPC and SVC), and found the best model to be a hypertuned Random Forest Classifier. 
+I faced many challenges with the data mainly because there exists no relevant dataset I could pull from, so I set out to collect the data on my own. I was eager to apply my learning in Data Analysis & Visualization to this project, and while there is so much more I could have done if I had more data, I was proud of my initiative and application of the NLTK package.
 ### Data Sources
-Kaggle provided the datasets. 
+I collected the data on my own by manually extracting relevant information from the schools' websites. The data is then stored in a .csv [file](https://github.com/hieuhannguyen/experiential_learning/blob/main/elprograms.csv) for analysis.
